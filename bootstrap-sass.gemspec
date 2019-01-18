@@ -8,8 +8,7 @@ Gem::Specification.new do |s|
   s.license = "Apache 2.0"
 
   s.add_development_dependency 'compass'
-  s.add_development_dependency 'sass-rails', '~> 3.2'
-  s.add_runtime_dependency     'sass',       '~> 3.2'
+  s.add_development_dependency 'sassc-rails', '~> 2.1'
 
   s.files = Dir["vendor/**/*.{scss,js,png}"] + Dir["lib/**/*"] + Dir["templates/**/*"] + ["README.md", "LICENSE"]
 end

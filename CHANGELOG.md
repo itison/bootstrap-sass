@@ -1,5 +1,8 @@
 # Changelog
 
+# 2.2.2.1
+* Update gemspec dependencies to work with sassc-rails.
+
 # 2.1.1.0
 * Update to Bootstrap 2.1.1
 * [#222] Remove 100% multiplier in vertical-three-colours
